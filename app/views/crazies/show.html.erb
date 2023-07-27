@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @crazy %>
+
+<div>
+  <%= link_to "Edit this crazy", edit_crazy_path(@crazy) %> |
+  <%= link_to "Back to crazies", crazies_path %>
+
+  <%= button_to "Destroy this crazy", @crazy, method: :delete %>
+</div>
